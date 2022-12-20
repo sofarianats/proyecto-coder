@@ -1,0 +1,245 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*-------- header --------*/
+h1{
+    font-size: 80px;
+    color: white;   
+    font-weight: 280px;
+}
+
+header{
+    background-color: #CC1C1C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+a{
+    padding-left: 15px;
+}
+
+header nav ul{
+    font-size: 20px;
+    display: flex;
+    gap:15px;
+}
+
+h2 {
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+
+/*---- cronologia------*/
+
+.ordenPosters {
+
+    display: flex;
+    text-align: center;
+
+}
+
+.cronologia{
+
+padding: 18px;
+
+}
+
+/* --------- Proximos estrenos-----------*/
+
+.proximosEstrenos{
+
+    position: relative;
+    left: 20px;
+    background-color: #D9D9D9 ;
+    width: 600px;
+    height: 500px;
+    padding-left: 10px;
+    overflow: scroll;
+    padding-bottom: 10px;
+}
+h2{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-decoration:underline;
+}
+
+.estrenos{
+
+    display: flex;
+    text-align: center;
+    padding-top: 5px;
+}
+
+/* ----------- fases -----------------*/
+
+aside{
+    padding-top: 20px;
+}
+
+
+.fases{
+    font-size: 90px;
+    text-align: center;
+    color: white;
+    background-image: url(../imagenes/fases.png);
+    background-size: 450px;
+    background-position: center;
+}
+
+/* ----- footer ------*/
+
+footer{
+
+    background-color: #CC1C1C;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.redes{
+    font-size: 20px;
+    color: white;
+    padding-bottom: 2px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+main{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+/*============ PELICULAS ==============*/
+
+.ordenPelis {
+
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.pelis{
+
+    padding: 18px;
+    width: 215px;
+    
+    }
+
+
+    /* ========== SERIES ======== */
+
+.ordenSeries {
+
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+h4{
+    padding-left: 10px;
+    
+}
+
+.series{
+    
+        padding: 18px;
+        width: 215px;
+        
+        }
+    
+
+
+
+        /*========== CRONOLOGIA ===========*/
+
+.subtitulo{
+
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+.cronoOrden{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.crono{
+    padding: 18px;
+    width: 215px;
+}
+
+.cronoPost{
+    text-align: center;
+    width: 100%;
+
+}
+
+
+/* =============FASES========== */
+
+.fase1{
+    font-size: 90px;;
+    text-align: center;
+    color: rgb(16, 27, 180);
+    background-image: url(../imagenes/fase1.jpg);
+    background-size: 200px;
+    background-position: center;
+}
+
+.fase2{
+
+    font-size: 90px;;
+    text-align: center;
+    color: red;
+    background-image: url(../imagenes/gemamente.jpg_large);
+    background-size: 300px;
+    background-position: center;
+    padding-bottom: 20px;
+
+}
+
+.fase3{
+    font-size: 90px;;
+    text-align: center;
+    color: white;
+    background-image: url(../imagenes/stones.jpg);
+    background-size: 400px;
+    background-position: center;
+}
+
+
+.fase{
+
+    padding: 18px;
+    width: 215px;
+    text-align: center;
+    
+    }
+
+.ordenFases{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.datos{
+    font-size: 10px;
+    text-align: center;
+}
+
