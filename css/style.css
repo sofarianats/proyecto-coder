@@ -12,7 +12,6 @@
 a{
     color: white;
 }
-
 a:hover{
     color: red;
 }
@@ -20,33 +19,45 @@ a:hover{
 /*-------- header --------*/
 h1{
     font-size: 80px;
+    display: flex;
     color: white;   
     font-weight: 280px;
+    color: #ffffff;
+    text-shadow: 0 1px 0px #000000, 1px 0 0px #000000, 1px 2px 1px #000000, 2px 1px 1px #000000, 2px 3px 2px #282a2b, 3px 2px 2px #1d1d1d, 3px 4px 2px #202020, 4px 3px 3px #3e3f3f, 4px 5px 3px #000000, 5px 4px 2px #161718, 5px 6px 2px #131314, 6px 5px 2px #1c1d1d, 6px 7px 1px #1f1f1f, 7px 6px 1px #242424, 7px 8px 0px #494949, 8px 7px 0px #f8fdff;
+}
+
+@media (min-width: 375px) {
+
+    .h1{
+        font-size: 40px;   }
 }
 
 header{
-    background-color: #CC1C1C;
     display: flex;
+    background-color: #CC1C1C;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
 
 }
 
+
 a{
     padding-left: 15px;
 }
 
-header nav ul{
-    font-size: 20px;
-    display: flex;
-    gap:15px;
-}
 
 h2 {
     padding-top: 20px;
     padding-left: 15px;
 }
+
+@media (max-widht: 375px){
+    body{
+        background-color: #CC1C1C;
+    }        
+    }
+    
 
 
 /*---- cronologia------*/
@@ -58,18 +69,29 @@ h2 {
 .name:hover{
     color: red;
 }
+
 .ordenPosters {
 
     display: flex;
     text-align: center;
-
+    
 }
 
 .cronologia{
 
-padding: 18px;
+    padding: 18px;
 
 }
+
+.poster:hover{
+
+    transform: scale(1.1);
+    transition: all;
+    transition-delay: 0.15s;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0.26), 5px 5px 15px 5px rgba(0,0,0,0.26); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0.26), 5px 5px 15px 5px rgba(0,0,0,0.26);
+}
+    
 
 /*------------ GRID ----------- */
 
@@ -128,8 +150,10 @@ h2{
     grid-area: area2;
     background-color: rgb(219, 218, 218);
     text-align: center;
-    width: 400px;
+    width: 350px;
     height: 250px;
+    border: rgb(189, 189, 189) solid;
+    
 }
 
 .text{
